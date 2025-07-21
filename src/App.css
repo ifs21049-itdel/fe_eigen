@@ -31,7 +31,6 @@
   padding: 8px 0 !important;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .ant-layout-content {
     padding: 24px 16px !important;
@@ -52,13 +51,11 @@
   }
 }
 
-/* Ensure cards have equal height in a row */
 .ant-row-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Prevent content overflow */
 .ant-layout-content {
   overflow-x: hidden;
 }
